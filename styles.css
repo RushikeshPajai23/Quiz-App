@@ -1,0 +1,170 @@
+body {
+  background-color: #54c3ef;
+}
+
+#quizForm {
+  position: relative;
+  left: 30em;
+  width: 40em;
+  height: 75em;
+  background-color: #2b3252;
+}
+
+.heading {
+  color: #fad744;
+  position: relative;
+  left: 1em;
+  top: 1em;
+}
+
+.mainHeading {
+  font-size: 40px;
+  position: relative;
+  left: 16em;
+  top: 1em;
+  color: #fad744;
+
+}
+
+.line {
+  width: 40em;
+  position: relative;
+  left: 3em;
+  top: 18em;
+  z-index: +1;
+  background-color: #fad744;
+}
+
+.line1 {
+  width: 40em;
+  position: relative;
+  left: 3em;
+  top: 31em;
+  z-index: +1;
+  color: #fad744;
+  background-color: #fad744;
+}
+
+.line3 {
+  width: 40em;
+  position: relative;
+  left: 3em;
+  top: 44em;
+  z-index: +1;
+  color: #fad744;
+  background-color: #fad744;
+}
+
+.line4 {
+  width: 40em;
+  position: relative;
+  left: 3em;
+  top: 57em;
+  z-index: +1;
+  background-color: #fad744;
+}
+
+.line5 {
+  width: 40em;
+  position: relative;
+  left: 3em;
+  top: 70em;
+  z-index: +1;
+  background-color: #fad744;
+}
+
+
+.names {
+  display: flex;
+  position: relative;
+  left: 2em;
+  color: #fad744;
+  font-size: 17px;
+}
+
+#id_0_0,
+#id_0_1,
+#id_0_2,
+#id_0_3,
+#id_0_4 {
+  position: relative;
+  top: 1.5em;
+  left: 10px;
+}
+
+#id_1_0,
+#id_1_1,
+#id_1_2,
+#id_1_3 {
+  position: relative;
+  top: 1.5em;
+  left: 10px;
+}
+
+
+#id_2_0,
+#id_2_1,
+#id_2_2,
+#id_2_3 {
+  position: relative;
+  top: 1.5em;
+  left: 10px;
+}
+
+#id_3_0,
+#id_3_1,
+#id_3_2,
+#id_3_3 {
+  position: relative;
+  top: 1.5em;
+  left: 10px;
+}
+
+#id_4_0,
+#id_4_1,
+#id_4_2,
+#id_4_3 {
+  position: relative;
+  top: 1.5em;
+  left: 10px;
+}
+
+.btn {
+  background-color: #fad744;
+  position: relative;
+  top: 5em;
+  left: 20em;
+  width: 7em;
+  height: 30px;
+  border: none;
+  border-radius: 20px;
+}
+#score{
+  display: flex;
+  justify-content: center;
+}
+.score2{
+  display: flex;
+  justify-content: center;
+}
+.scoreBoard{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  background-color: aliceblue;
+  width: 80px;
+  height: 8em;
+  right: 15em;
+  top: 8em;
+  border-radius: 5px;
+}
+
+.scoreName{
+  position: absolute;
+  height: 8em;
+  top: 12em; 
+  right: 20em;
+  z-index: +1;
+}
